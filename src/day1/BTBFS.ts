@@ -18,3 +18,6 @@ export default function bfs(head: BinaryNode<number>, needle: number): boolean {
 
   return false;
 }
+
+// NOTE: Breadth First Search (BFS) does NOT preserve the shape of the data structure.
+// This can be a problem if used to compare data structures with different shapes, but similar values and organization

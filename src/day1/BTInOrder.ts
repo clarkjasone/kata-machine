@@ -17,3 +17,6 @@ function walk(curr: BinaryNode<number> | null, path: number[]): number[] {
 export default function in_order_search(head: BinaryNode<number>): number[] {
   return walk(head, []);
 }
+
+// NOTE: Depth First Search (DFS) preserves the shape of the data structure
+// In this case the path will match the shape of the structure and search method when returned
