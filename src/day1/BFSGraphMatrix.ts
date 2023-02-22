@@ -33,7 +33,7 @@ export default function bfs(
 
   // build it backwards
   let curr = needle;
-  const out: number[] =[];
+  const out: number[] = [];
 
   while (prev[curr] !== -1) {
     out.push(curr);
