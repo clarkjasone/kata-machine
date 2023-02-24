@@ -1,4 +1,5 @@
 // NOTE: Look at runtime for this (see video) and redo with minHeap vs. using seen array to go from O(V^2) to O(logV(V + E))
+// NOTE: numIslands is a Graph question!!
 
 function hasUnvisited(seen: boolean[], dists: number[]): boolean {
   return seen.some((s, i) => !s && dists[i] < Infinity);
