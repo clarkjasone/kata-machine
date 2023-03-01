@@ -1,3 +1,7 @@
+// Time Complexity: O(nlogn) theoretically, but can be O(n^2) for a reverse sorted array if you pick the highest index as the pivot on each recursive call
+// Go through this in more detail to clearly understand how O(nlogn) is achieved
+// Add time complexity / space complexity comments to all functions in this program
+
 function qs(arr: number[], lo: number, hi: number): void {
   if (lo >= hi) {
     return;
